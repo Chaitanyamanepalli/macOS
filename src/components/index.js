@@ -1,4 +1,4 @@
-import Navbar from "#components/Navbar.jsx"
-import Welcome from "#components/welcome.jsx"
+import Navbar from "./Navbar.jsx"
+import Welcome from "./welcome.jsx"
 
-export {Navbar,Welcome}
+export { Navbar, Welcome }
