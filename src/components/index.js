@@ -3,4 +3,6 @@ import Welcome from "./welcome.jsx"
 import Dock from "./Dock.jsx"
 import WindowControls from "./WindowControls.jsx"
 
-export { Navbar, Welcome,Dock,WindowControls }
+import Desktop from "./Desktop.jsx"
+
+export { Navbar, Welcome, Dock, WindowControls, Desktop }

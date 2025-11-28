@@ -26,6 +26,7 @@ const WindowWrapper = (Component, windowKey) => {
                 // Make draggable
                 Draggable.create(el, {
                     type: "x,y",
+                    trigger: el.querySelector("#window-header"),
                     onPress: () => focusWindow(windowKey), // Focus on drag start
                     allowContextMenu: true,
                 });
